@@ -1,0 +1,865 @@
+{
+  "data": [
+    {
+      "@rid": 32,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676008288,
+      "deviceType": [
+        "vbond",
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X",
+        "vmanage",
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"aaa\":{\"auth-order\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"local\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"radius\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"tacacs\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"auth-fallback\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"usergroup\":{\"vipType\":\"constant\",\"vipValue\":[{\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"netadmin\"},\"viewMode\":\"view\",\"priority-order\":[\"name\"]},{\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"basic\"},\"priority-order\":[\"name\",\"task\"],\"task\":{\"vipType\":\"constant\",\"vipValue\":[{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"system\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"write\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"interface\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"write\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"mode\"]}},{\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"operator\"},\"priority-order\":[\"name\",\"task\"],\"task\":{\"vipType\":\"constant\",\"vipValue\":[{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"system\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"interface\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"policy\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"routing\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"security\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"mode\"]}}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"name\"]},\"user\":{\"vipType\":\"constant\",\"vipValue\":[{\"name\":{\"vipObjectType\":\"object\",\"vipValue\":\"admin\",\"vipType\":\"constant\"},\"password\":{\"vipObjectType\":\"object\",\"vipValue\":\"$6$siwKBQ==$wT2lUa9BSreDPI6gB8sl4E6PAJoVXgMbgv/whJ8F1C6sWdRazdxorYYTLrL6syiG6qnLABTnrE96HJiKF6QRq1\",\"vipPasskey\":\"admin\",\"vipType\":\"constant\"},\"secret\":{\"vipObjectType\":\"object\",\"vipValue\":\"$9$3VAI2FQD3UwH1k$hAKZcjzke0zyoJcyMqUV/o6xKnRmPqf1MG5WMa83ypc\",\"vipType\":\"constant\"},\"description\":{\"vipObjectType\":\"object\",\"vipValue\":\"\",\"vipType\":\"ignore\"},\"group\":{\"vipType\":\"constant\",\"vipValue\":[],\"vipObjectType\":\"list\"},\"priority-order\":[\"name\",\"password\",\"description\",\"group\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"name\"]}},\"tacacs\":{\"timeout\":{\"vipObjectType\":\"object\",\"vipValue\":5,\"vipType\":\"ignore\"}},\"radius\":{\"timeout\":{\"vipObjectType\":\"object\",\"vipValue\":5,\"vipType\":\"ignore\"},\"retransmit\":{\"vipObjectType\":\"object\",\"vipValue\":3,\"vipType\":\"ignore\"}}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676008288,
+      "templateDefinition": "{\"aaa\":{\"auth-order\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"local\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"radius\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"tacacs\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"auth-fallback\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"usergroup\":{\"vipType\":\"constant\",\"vipValue\":[{\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"netadmin\"},\"viewMode\":\"view\",\"priority-order\":[\"name\"]},{\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"basic\"},\"priority-order\":[\"name\",\"task\"],\"task\":{\"vipType\":\"constant\",\"vipValue\":[{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"system\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"write\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"interface\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"},{\"vipType\":\"constant\",\"vipValue\":\"write\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"mode\"]}},{\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"operator\"},\"priority-order\":[\"name\",\"task\"],\"task\":{\"vipType\":\"constant\",\"vipValue\":[{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"system\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"interface\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"policy\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"routing\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]},{\"mode\":{\"vipType\":\"constant\",\"vipValue\":\"security\",\"vipObjectType\":\"object\"},\"permission\":{\"vipType\":\"constant\",\"vipValue\":[{\"vipType\":\"constant\",\"vipValue\":\"read\",\"vipObjectType\":\"object\"}],\"vipObjectType\":\"list\"},\"priority-order\":[\"mode\",\"permission\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"mode\"]}}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"name\"]},\"user\":{\"vipType\":\"constant\",\"vipValue\":[{\"name\":{\"vipObjectType\":\"object\",\"vipValue\":\"admin\",\"vipType\":\"constant\"},\"password\":{\"vipObjectType\":\"object\",\"vipValue\":\"$6$siwKBQ==$wT2lUa9BSreDPI6gB8sl4E6PAJoVXgMbgv/whJ8F1C6sWdRazdxorYYTLrL6syiG6qnLABTnrE96HJiKF6QRq1\",\"vipPasskey\":\"admin\",\"vipType\":\"constant\"},\"secret\":{\"vipObjectType\":\"object\",\"vipValue\":\"$9$3VAI2FQD3UwH1k$hAKZcjzke0zyoJcyMqUV/o6xKnRmPqf1MG5WMa83ypc\",\"vipType\":\"constant\"},\"description\":{\"vipObjectType\":\"object\",\"vipValue\":\"\",\"vipType\":\"ignore\"},\"group\":{\"vipType\":\"constant\",\"vipValue\":[],\"vipObjectType\":\"list\"},\"priority-order\":[\"name\",\"password\",\"description\",\"group\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"name\"]}},\"tacacs\":{\"timeout\":{\"vipObjectType\":\"object\",\"vipValue\":5,\"vipType\":\"ignore\"}},\"radius\":{\"timeout\":{\"vipObjectType\":\"object\",\"vipValue\":5,\"vipType\":\"ignore\"},\"retransmit\":{\"vipObjectType\":\"object\",\"vipValue\":3,\"vipType\":\"ignore\"}}}",
+      "templateDescription": "Default AAA template settings",
+      "templateId": "476b52d0-3196-4625-82be-1deb124a5199",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_AAA_Template",
+      "templateType": "aaa"
+    },
+    {
+      "@rid": 33,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676008727,
+      "deviceType": [
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"vpn_if_name\",\"vipType\":\"constant\",\"vipValue\":\"mgmt0\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"ip\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"192.168.1.1/24\"}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"flow-control\":{\"vipObjectType\":\"object\",\"vipValue\":\"autoneg\",\"vipType\":\"ignore\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1500,\"vipType\":\"ignore\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"mac-address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"speed\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"duplex\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"\",\"vipValue\":\"false\",\"vipType\":\"constant\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":1200,\"vipType\":\"ignore\"},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"ipv6\":{},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}},\"vrrp\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"grp-id\"]}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676008727,
+      "templateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"vpn_if_name\",\"vipType\":\"constant\",\"vipValue\":\"mgmt0\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"ip\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"192.168.1.1/24\"}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"flow-control\":{\"vipObjectType\":\"object\",\"vipValue\":\"autoneg\",\"vipType\":\"ignore\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1500,\"vipType\":\"ignore\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"mac-address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"speed\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"duplex\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"\",\"vipValue\":\"false\",\"vipType\":\"constant\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":1200,\"vipType\":\"ignore\"},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"ipv6\":{},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}},\"vrrp\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"grp-id\"]}}",
+      "templateDescription": "Default Management Interface template settings for vEdge",
+      "templateId": "2d49950c-21fa-4b6b-a5dc-4a4b42cff8b8",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_Management_Interface",
+      "templateType": "vpn-vedge-interface"
+    },
+    {
+      "@rid": 46,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676007738,
+      "deviceType": [
+        "vmanage",
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"512\"},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"ip\":{},\"ipv6\":{}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676007738,
+      "templateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"512\"},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"ip\":{},\"ipv6\":{}}",
+      "templateDescription": "Default Management VPN template settings for vSmart and vManage",
+      "templateId": "bf3fcac8-8ab3-46a3-9ab5-c0d3e6107826",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vSmart_vManage_VPN_512_Template",
+      "templateType": "vpn-vsmart"
+    },
+    {
+      "@rid": 103,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676009152,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"clock\":{\"timezone\":{\"vipObjectType\":\"object\",\"vipValue\":\"America/Los_Angeles\",\"vipType\":\"ignore\"}},\"gps-location\":{\"latitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"longitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"timer\":{\"dns-cache-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":30,\"vipType\":\"ignore\"}},\"location\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"system-tunnel-mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1024,\"vipType\":\"ignore\"},\"track-transport\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"port-offset\":{\"vipObjectType\":\"object\",\"vipValue\":0,\"vipType\":\"ignore\"},\"port-hop\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"control-session-pps\":{\"vipObjectType\":\"object\",\"vipValue\":300,\"vipType\":\"ignore\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"device-groups\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"site-id\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"system-ip\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"host-name\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"console-baud-rate\":{\"vipObjectType\":\"object\",\"vipValue\":\"115200\",\"vipType\":\"ignore\"},\"max-controllers\":{\"vipObjectType\":\"object\",\"vipValue\":2,\"vipType\":\"ignore\"},\"usb-controller\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"track-default-gateway\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"host-policer-pps\":{\"vipObjectType\":\"object\",\"vipValue\":5000,\"vipType\":\"ignore\"},\"icmp-error-pps\":{\"vipObjectType\":\"object\",\"vipValue\":100,\"vipType\":\"ignore\"}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676009152,
+      "templateDefinition": "{\"clock\":{\"timezone\":{\"vipObjectType\":\"object\",\"vipValue\":\"America/Los_Angeles\",\"vipType\":\"ignore\"}},\"gps-location\":{\"latitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"longitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"timer\":{\"dns-cache-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":30,\"vipType\":\"ignore\"}},\"location\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"system-tunnel-mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1024,\"vipType\":\"ignore\"},\"track-transport\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"port-offset\":{\"vipObjectType\":\"object\",\"vipValue\":0,\"vipType\":\"ignore\"},\"port-hop\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"control-session-pps\":{\"vipObjectType\":\"object\",\"vipValue\":300,\"vipType\":\"ignore\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"device-groups\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"site-id\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"system-ip\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"host-name\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"console-baud-rate\":{\"vipObjectType\":\"object\",\"vipValue\":\"115200\",\"vipType\":\"ignore\"},\"max-controllers\":{\"vipObjectType\":\"object\",\"vipValue\":2,\"vipType\":\"ignore\"},\"usb-controller\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"track-default-gateway\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"host-policer-pps\":{\"vipObjectType\":\"object\",\"vipValue\":5000,\"vipType\":\"ignore\"},\"icmp-error-pps\":{\"vipObjectType\":\"object\",\"vipValue\":100,\"vipType\":\"ignore\"}}",
+      "templateDescription": "Default System template settings for vEdge",
+      "templateId": "777f1262-1ae7-4dea-82d1-b24b2132d548",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_System_Template",
+      "templateType": "system-vedge"
+    },
+    {
+      "@rid": 104,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676009432,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"vpn_if_name_Default_vEdge_DHCP_Tunnel_Interface\",\"vipType\":\"variableName\",\"vipValue\":\"\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"ip\":{\"dhcp-client\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"\",\"vipType\":\"constant\",\"vipValue\":\"true\"},\"dhcp-distance\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"flow-control\":{\"vipObjectType\":\"object\",\"vipValue\":\"autoneg\",\"vipType\":\"ignore\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1500,\"vipType\":\"ignore\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"mac-address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"speed\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"duplex\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"\",\"vipValue\":\"false\",\"vipType\":\"constant\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":1200,\"vipType\":\"ignore\"},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"tunnel-interface\":{\"encapsulation\":{\"vipType\":\"constant\",\"vipValue\":[{\"preference\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"weight\":{\"vipObjectType\":\"object\",\"vipValue\":1,\"vipType\":\"ignore\"},\"encap\":{\"vipType\":\"constant\",\"vipValue\":\"ipsec\",\"vipObjectType\":\"object\"},\"priority-order\":[\"encap\",\"preference\",\"weight\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"encap\"]},\"group\":{},\"color\":{\"value\":{\"vipObjectType\":\"object\",\"vipValue\":\"default\",\"vipType\":\"ignore\"},\"restrict\":{\"vipObjectType\":\"node-only\",\"vipValue\":\"false\",\"vipType\":\"ignore\"}},\"carrier\":{\"vipObjectType\":\"object\",\"vipValue\":\"default\",\"vipType\":\"ignore\"},\"bind\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"allow-service\":{\"dhcp\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"dns\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"icmp\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"sshd\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"ntp\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"stun\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"https\":{},\"all\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"bgp\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"ospf\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"}},\"control-connections\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"hello-interval\":{},\"hello-tolerance\":{}},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"ipv6\":{},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}},\"vrrp\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"grp-id\"]}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676009432,
+      "templateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"vpn_if_name_Default_vEdge_DHCP_Tunnel_Interface\",\"vipType\":\"variableName\",\"vipValue\":\"\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"ip\":{\"dhcp-client\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"\",\"vipType\":\"constant\",\"vipValue\":\"true\"},\"dhcp-distance\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"flow-control\":{\"vipObjectType\":\"object\",\"vipValue\":\"autoneg\",\"vipType\":\"ignore\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1500,\"vipType\":\"ignore\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"mac-address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"speed\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"duplex\":{\"vipObjectType\":\"object\",\"vipValue\":\"_empty\",\"vipType\":\"ignore\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"\",\"vipValue\":\"false\",\"vipType\":\"constant\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":1200,\"vipType\":\"ignore\"},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"tunnel-interface\":{\"encapsulation\":{\"vipType\":\"constant\",\"vipValue\":[{\"preference\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"weight\":{\"vipObjectType\":\"object\",\"vipValue\":1,\"vipType\":\"ignore\"},\"encap\":{\"vipType\":\"constant\",\"vipValue\":\"ipsec\",\"vipObjectType\":\"object\"},\"priority-order\":[\"encap\",\"preference\",\"weight\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"encap\"]},\"group\":{},\"color\":{\"value\":{\"vipObjectType\":\"object\",\"vipValue\":\"default\",\"vipType\":\"ignore\"},\"restrict\":{\"vipObjectType\":\"node-only\",\"vipValue\":\"false\",\"vipType\":\"ignore\"}},\"carrier\":{\"vipObjectType\":\"object\",\"vipValue\":\"default\",\"vipType\":\"ignore\"},\"bind\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"allow-service\":{\"dhcp\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"dns\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"icmp\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"sshd\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"ntp\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"stun\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"https\":{},\"all\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"bgp\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"},\"ospf\":{\"vipObjectType\":\"object\",\"vipValue\":\"false\",\"vipType\":\"ignore\"}},\"control-connections\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"hello-interval\":{},\"hello-tolerance\":{}},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"ipv6\":{},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}},\"vrrp\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"grp-id\"]}}",
+      "templateDescription": "Default DHCP Tunnel Interface template settings for vEdge",
+      "templateId": "17b68863-3d13-4348-93b5-b103ad3fd69e",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_DHCP_Tunnel_Interface",
+      "templateType": "vpn-vedge-interface"
+    },
+    {
+      "@rid": 105,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676009757,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":0},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"Transport VPN\"},\"ecmp-hash-key\":{\"layer4\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"service\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"svc-type\"]}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676009757,
+      "templateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":0},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"Transport VPN\"},\"ecmp-hash-key\":{\"layer4\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"service\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"svc-type\"]}}",
+      "templateDescription": "Default Transport VPN template settings for vEdge",
+      "templateId": "75dc410d-9910-429a-b2d7-ff716b48e8d3",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_VPN_0_Template",
+      "templateType": "vpn-vedge"
+    },
+    {
+      "@rid": 106,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676009974,
+      "deviceType": [
+        "vmanage",
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"clock\":{\"timezone\":{\"vipObjectType\":\"object\",\"vipValue\":\"America/Los_Angeles\",\"vipType\":\"ignore\"}},\"gps-location\":{\"latitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"longitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"timer\":{\"dns-cache-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":30,\"vipType\":\"ignore\"}},\"location\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"system-tunnel-mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1024,\"vipType\":\"ignore\"},\"track-transport\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"port-offset\":{\"vipObjectType\":\"object\",\"vipValue\":0,\"vipType\":\"ignore\"},\"port-hop\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"control-session-pps\":{\"vipObjectType\":\"object\",\"vipValue\":300,\"vipType\":\"ignore\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"device-groups\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"site-id\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"system-ip\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"host-name\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"track-default-gateway\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"host-policer-pps\":{},\"icmp-error-pps\":{}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676009974,
+      "templateDefinition": "{\"clock\":{\"timezone\":{\"vipObjectType\":\"object\",\"vipValue\":\"America/Los_Angeles\",\"vipType\":\"ignore\"}},\"gps-location\":{\"latitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"longitude\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"timer\":{\"dns-cache-timeout\":{\"vipObjectType\":\"object\",\"vipValue\":30,\"vipType\":\"ignore\"}},\"location\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"system-tunnel-mtu\":{\"vipObjectType\":\"object\",\"vipValue\":1024,\"vipType\":\"ignore\"},\"track-transport\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"port-offset\":{\"vipObjectType\":\"object\",\"vipValue\":0,\"vipType\":\"ignore\"},\"port-hop\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"control-session-pps\":{\"vipObjectType\":\"object\",\"vipValue\":300,\"vipType\":\"ignore\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"device-groups\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"site-id\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"system-ip\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"host-name\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"track-default-gateway\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"host-policer-pps\":{},\"icmp-error-pps\":{}}",
+      "templateDescription": "Default System template settings for vSmart and vManage",
+      "templateId": "ab4beafa-bfa4-44b3-9436-9bb62221420e",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vSmart_vManage_System_Template",
+      "templateType": "system-vsmart"
+    },
+    {
+      "@rid": 107,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676010206,
+      "deviceType": [
+        "vbond",
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X",
+        "vmanage",
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"disk\":{\"enable\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"file\":{\"size\":{\"vipObjectType\":\"object\",\"vipValue\":10,\"vipType\":\"ignore\"},\"rotate\":{\"vipObjectType\":\"object\",\"vipValue\":10,\"vipType\":\"ignore\"}},\"priority\":{\"vipObjectType\":\"object\",\"vipValue\":\"information\",\"vipType\":\"ignore\"}}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676010206,
+      "templateDefinition": "{\"disk\":{\"enable\":{\"vipObjectType\":\"object\",\"vipValue\":\"true\",\"vipType\":\"ignore\"},\"file\":{\"size\":{\"vipObjectType\":\"object\",\"vipValue\":10,\"vipType\":\"ignore\"},\"rotate\":{\"vipObjectType\":\"object\",\"vipValue\":10,\"vipType\":\"ignore\"}},\"priority\":{\"vipObjectType\":\"object\",\"vipValue\":\"information\",\"vipType\":\"ignore\"}}}",
+      "templateDescription": "Default Logging template settings",
+      "templateId": "6100ab12-610f-4344-b41e-0ca9ff0ee6f6",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_Logging_Template",
+      "templateType": "logging"
+    },
+    {
+      "@rid": 108,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676010444,
+      "deviceType": [
+        "vedge-100-M",
+        "vedge-100-WM"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"cellular0\",\"vipVariableName\":\"vpn_if_name\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"ip\":{\"dhcp-client\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"true\"},\"dhcp-distance\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1}},\"ipv6\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"dhcp-rapid-commit\":{},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":1428,\"vipVariableName\":\"\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"false\",\"vipVariableName\":\"\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1200},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"bandwidth-upstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"bandwidth-downstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"profile\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":0,\"vipVariableName\":\"\"},\"tunnel-interface\":{\"encapsulation\":{\"vipType\":\"constant\",\"vipValue\":[{\"preference\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"weight\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1},\"encap\":{\"vipType\":\"constant\",\"vipValue\":\"ipsec\",\"vipObjectType\":\"object\"},\"priority-order\":[\"encap\",\"preference\",\"weight\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"encap\"]},\"group\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"border\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"color\":{\"value\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"lte\",\"vipVariableName\":\"\"},\"restrict\":{\"vipObjectType\":\"node-only\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"carrier\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"default\"},\"bind\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"allow-service\":{\"dhcp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"dns\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"icmp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"sshd\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"ntp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"stun\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"all\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"bgp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"ospf\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"netconf\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"max-control-connections\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"vbond-as-stun-server\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"exclude-controller-group-list\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"vmanage-connection-preference\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":5},\"low-bandwidth-link\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"last-resort-circuit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"nat-refresh-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":5},\"hello-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1000},\"hello-tolerance\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":12},\"control-connections\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"}},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676010444,
+      "templateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"cellular0\",\"vipVariableName\":\"vpn_if_name\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"ip\":{\"dhcp-client\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"true\"},\"dhcp-distance\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1}},\"ipv6\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"dhcp-rapid-commit\":{},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":1428,\"vipVariableName\":\"\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"false\",\"vipVariableName\":\"\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1200},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"bandwidth-upstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"bandwidth-downstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"}},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"profile\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":0,\"vipVariableName\":\"\"},\"tunnel-interface\":{\"encapsulation\":{\"vipType\":\"constant\",\"vipValue\":[{\"preference\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"weight\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1},\"encap\":{\"vipType\":\"constant\",\"vipValue\":\"ipsec\",\"vipObjectType\":\"object\"},\"priority-order\":[\"encap\",\"preference\",\"weight\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"encap\"]},\"group\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"border\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"color\":{\"value\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"lte\",\"vipVariableName\":\"\"},\"restrict\":{\"vipObjectType\":\"node-only\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"carrier\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"default\"},\"bind\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"allow-service\":{\"dhcp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"dns\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"icmp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"sshd\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"ntp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"stun\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"all\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"bgp\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"ospf\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"netconf\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"max-control-connections\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"vbond-as-stun-server\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"exclude-controller-group-list\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\"},\"vmanage-connection-preference\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":5},\"low-bandwidth-link\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"last-resort-circuit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"nat-refresh-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":5},\"hello-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1000},\"hello-tolerance\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":12},\"control-connections\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"}},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}}}",
+      "templateDescription": "Default Cellular Interface template settings for vEdge",
+      "templateId": "9d6648cc-86d5-4d99-bf2f-b15b8f12db6d",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_Cellular_Interface",
+      "templateType": "vpn-vedge-interface-cellular"
+    },
+    {
+      "@rid": 109,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676010843,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"app-route\":{\"multiplier\":{\"vipObjectType\":\"object\",\"vipValue\":6,\"vipType\":\"ignore\"},\"poll-interval\":{\"vipObjectType\":\"object\",\"vipValue\":600000,\"vipType\":\"ignore\"}},\"color\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"color\"]}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676010843,
+      "templateDefinition": "{\"app-route\":{\"multiplier\":{\"vipObjectType\":\"object\",\"vipValue\":6,\"vipType\":\"ignore\"},\"poll-interval\":{\"vipObjectType\":\"object\",\"vipValue\":600000,\"vipType\":\"ignore\"}},\"color\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"color\"]}}",
+      "templateDescription": "Default BFD template settings",
+      "templateId": "2d284024-a806-4671-b557-859a86479cb1",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_BFD_Template",
+      "templateType": "bfd-vedge"
+    },
+    {
+      "@rid": 110,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676011120,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"graceful-restart\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"send-path-limit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":4},\"ecmp-limit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":4},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"timers\":{\"advertisement-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1},\"graceful-restart-timer\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":43200},\"holdtime\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":60}},\"advertise\":{\"vipType\":\"constant\",\"vipValue\":[{\"priority-order\":[\"protocol\"],\"protocol\":{\"vipType\":\"constant\",\"vipValue\":\"connected\",\"vipObjectType\":\"object\"}},{\"priority-order\":[\"protocol\"],\"protocol\":{\"vipType\":\"constant\",\"vipValue\":\"static\",\"vipObjectType\":\"object\"}}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"protocol\"]}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676011120,
+      "templateDefinition": "{\"graceful-restart\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"send-path-limit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":4},\"ecmp-limit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":4},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"timers\":{\"advertisement-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1},\"graceful-restart-timer\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":43200},\"holdtime\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":60}},\"advertise\":{\"vipType\":\"constant\",\"vipValue\":[{\"priority-order\":[\"protocol\"],\"protocol\":{\"vipType\":\"constant\",\"vipValue\":\"connected\",\"vipObjectType\":\"object\"}},{\"priority-order\":[\"protocol\"],\"protocol\":{\"vipType\":\"constant\",\"vipValue\":\"static\",\"vipObjectType\":\"object\"}}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"protocol\"]}}",
+      "templateDescription": "Default OMP template settings for vEdge",
+      "templateId": "fa6f5eb8-1dfd-4019-8c39-7819a871cc64",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_OMP_Template",
+      "templateType": "omp-vedge"
+    },
+    {
+      "@rid": 111,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676011398,
+      "deviceType": [
+        "vmanage",
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"control\":{\"protocol\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"dtls\"}}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676011398,
+      "templateDefinition": "{\"control\":{\"protocol\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"dtls\"}}}",
+      "templateDescription": "Default Security template settings for vSmart and vManage",
+      "templateId": "1918ba5d-e91d-4682-b889-71fd5fd27765",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vSmart_vManage_Security_Template",
+      "templateType": "security-vsmart"
+    },
+    {
+      "@rid": 112,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676011622,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"ipsec\":{\"rekey\":{\"vipObjectType\":\"object\",\"vipValue\":86400,\"vipType\":\"ignore\"},\"replay-window\":{\"vipObjectType\":\"object\",\"vipValue\":512,\"vipType\":\"ignore\"},\"authentication-type\":{\"vipType\":\"constant\",\"vipValue\":[\"sha1-hmac\",\"ah-sha1-hmac\"],\"vipObjectType\":\"list\"}}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676011622,
+      "templateDefinition": "{\"ipsec\":{\"rekey\":{\"vipObjectType\":\"object\",\"vipValue\":86400,\"vipType\":\"ignore\"},\"replay-window\":{\"vipObjectType\":\"object\",\"vipValue\":512,\"vipType\":\"ignore\"},\"authentication-type\":{\"vipType\":\"constant\",\"vipValue\":[\"sha1-hmac\",\"ah-sha1-hmac\"],\"vipObjectType\":\"list\"}}}",
+      "templateDescription": "Default Security template settings for vEdge",
+      "templateId": "313585d2-4131-47ca-8968-09c3ceb7d52d",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_Security_Template",
+      "templateType": "security-vedge"
+    },
+    {
+      "@rid": 113,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676011919,
+      "deviceType": [
+        "vmanage",
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"0\"},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"ip\":{\"route\":{\"vipType\":\"constant\",\"vipValue\":[{\"prefix\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"route_prefix_0\",\"vipType\":\"constant\",\"vipValue\":\"0.0.0.0/0\"},\"next-hop\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"distance\":{\"vipObjectType\":\"object\",\"vipValue\":1,\"vipType\":\"ignore\"}},\"priority-order\":[\"prefix\",\"next-hop\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"prefix\"]}},\"ipv6\":{}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676011919,
+      "templateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"0\"},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\"},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"ip\":{\"route\":{\"vipType\":\"constant\",\"vipValue\":[{\"prefix\":{\"vipObjectType\":\"object\",\"vipVariableName\":\"route_prefix_0\",\"vipType\":\"constant\",\"vipValue\":\"0.0.0.0/0\"},\"next-hop\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"variable\",\"vipValue\":\"\"},\"distance\":{\"vipObjectType\":\"object\",\"vipValue\":1,\"vipType\":\"ignore\"}},\"priority-order\":[\"prefix\",\"next-hop\"]}],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"prefix\"]}},\"ipv6\":{}}",
+      "templateDescription": "Default Transport VPN template settings for vSmart and vManage",
+      "templateId": "5202f0a4-86c5-40af-979d-492b9e11a90a",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vSmart_vManage_VPN_0_Template",
+      "templateType": "vpn-vsmart"
+    },
+    {
+      "@rid": 114,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676012132,
+      "deviceType": [
+        "vedge-100-B",
+        "vedge-100-M",
+        "vedge-100-WM"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"ge0/0\",\"vipVariableName\":\"vpn_if_name\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_description\"},\"ip\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"192.168.1.1/24\",\"vipVariableName\":\"vpn_if_ipv4_address\"}},\"ipv6\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_ipv6_address\"},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_dhcp_helper\"},\"flow-control\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"autoneg\",\"vipVariableName\":\"vpn_if_flow_control\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\",\"vipVariableName\":\"vpn_if_clear_dont_fragment\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\",\"vipVariableName\":\"vpn_if_pmtu\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1500,\"vipVariableName\":\"vpn_if_ip_mtu\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_static_ingress_qos\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_tcp_mss_adjust\"},\"mac-address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_mac_address\"},\"speed\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"_empty\",\"vipVariableName\":\"vpn_if_speed\"},\"duplex\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"_empty\",\"vipVariableName\":\"vpn_if_duplex\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"false\",\"vipVariableName\":\"vpn_if_shutdown\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1200,\"vipVariableName\":\"vpn_if_arp_timeout\"},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\",\"vipVariableName\":\"vpn_if_autonegotiate\"},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"qos_shaping_rate\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"qos_map\"},\"bandwidth-upstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_bandwidth_upstream\"},\"bandwidth-downstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_bandwidth_downstream\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"rewrite_rule_name\"}},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_tloc_extension\"},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}},\"vrrp\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"grp-id\"]}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676012132,
+      "templateDefinition": "{\"if-name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"ge0/0\",\"vipVariableName\":\"vpn_if_name\"},\"description\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_description\"},\"ip\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"192.168.1.1/24\",\"vipVariableName\":\"vpn_if_ipv4_address\"}},\"ipv6\":{\"address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_ipv6_address\"},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]}},\"dhcp-helper\":{\"vipObjectType\":\"list\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_dhcp_helper\"},\"flow-control\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"autoneg\",\"vipVariableName\":\"vpn_if_flow_control\"},\"clear-dont-fragment\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\",\"vipVariableName\":\"vpn_if_clear_dont_fragment\"},\"pmtu\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\",\"vipVariableName\":\"vpn_if_pmtu\"},\"mtu\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1500,\"vipVariableName\":\"vpn_if_ip_mtu\"},\"static-ingress-qos\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_static_ingress_qos\"},\"tcp-mss-adjust\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_tcp_mss_adjust\"},\"mac-address\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_mac_address\"},\"speed\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"_empty\",\"vipVariableName\":\"vpn_if_speed\"},\"duplex\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"_empty\",\"vipVariableName\":\"vpn_if_duplex\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"false\",\"vipVariableName\":\"vpn_if_shutdown\"},\"arp-timeout\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1200,\"vipVariableName\":\"vpn_if_arp_timeout\"},\"autonegotiate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\",\"vipVariableName\":\"vpn_if_autonegotiate\"},\"shaping-rate\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"qos_shaping_rate\"},\"qos-map\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"qos_map\"},\"bandwidth-upstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_bandwidth_upstream\"},\"bandwidth-downstream\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_bandwidth_downstream\"},\"rewrite-rule\":{\"rule-name\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"rewrite_rule_name\"}},\"tloc-extension\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipVariableName\":\"vpn_if_tloc_extension\"},\"access-list\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"direction\"]},\"policer\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"policer-name\",\"direction\"]},\"arp\":{\"ip\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"addr\"]}},\"vrrp\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"grp-id\"]}}",
+      "templateDescription": "Default Management Interface template settings for vEdge 100B,M,WM",
+      "templateId": "0e3db478-a111-47e7-b4c9-d972fa351d2d",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_100B_M_WM_Management_Interface",
+      "templateType": "vpn-vedge-interface"
+    },
+    {
+      "@rid": 115,
+      "attachedMastersCount": 1,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676012476,
+      "deviceType": [
+        "vedge-100",
+        "vedge-100-M",
+        "vedge-100-WM",
+        "vedge-100-B",
+        "vedge-1000",
+        "vedge-2000",
+        "vedge-5000",
+        "vedge-cloud",
+        "vedge-CSR-1000v",
+        "vedge-ISR-4331",
+        "vedge-ISR-4321",
+        "vedge-ISR-4351",
+        "vedge-ISR-4221",
+        "vedge-ASR-1001-HX",
+        "vedge-ASR-1002-X",
+        "vedge-ASR-1002-HX",
+        "vedge-C1111-8P",
+        "vedge-C1111-8PLTEEA",
+        "vedge-C1111-8PLTELA",
+        "vedge-C1117-4PLTEEA",
+        "vedge-C1117-4PLTELA",
+        "vedge-ISRv",
+        "vedge-ASR-1001-X"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":512},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"Transport VPN\"},\"ecmp-hash-key\":{\"layer4\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"service\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"svc-type\"]},\"ip\":{},\"ipv6\":{}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676012476,
+      "templateDefinition": "{\"vpn-id\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":512},\"name\":{\"vipObjectType\":\"object\",\"vipType\":\"constant\",\"vipValue\":\"Transport VPN\"},\"ecmp-hash-key\":{\"layer4\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}},\"host\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"hostname\"]},\"service\":{\"vipType\":\"ignore\",\"vipValue\":[],\"vipObjectType\":\"tree\",\"vipPrimaryKey\":[\"svc-type\"]},\"ip\":{},\"ipv6\":{}}",
+      "templateDescription": "Default Management VPN template settings for vEdge",
+      "templateId": "b497375e-4d8d-4cc0-ae0d-c9296944e075",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vEdge_VPN_512_Template",
+      "templateType": "vpn-vedge"
+    },
+    {
+      "@rid": 116,
+      "attachedMastersCount": 0,
+      "configType": "xml",
+      "createdBy": "system",
+      "createdOn": 1541676012631,
+      "deviceType": [
+        "vsmart"
+      ],
+      "devicesAttached": 0,
+      "editedTemplateDefinition": "{\"graceful-restart\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"send-path-limit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":4},\"send-backup-paths\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"timers\":{\"advertisement-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1},\"graceful-restart-timer\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":43200},\"holdtime\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":60}},\"discard-rejected\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}}",
+      "factoryDefault": true,
+      "lastUpdatedBy": "system",
+      "lastUpdatedOn": 1541676012631,
+      "templateDefinition": "{\"graceful-restart\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"true\"},\"send-path-limit\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":4},\"send-backup-paths\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"shutdown\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"},\"timers\":{\"advertisement-interval\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":1},\"graceful-restart-timer\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":43200},\"holdtime\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":60}},\"discard-rejected\":{\"vipObjectType\":\"object\",\"vipType\":\"ignore\",\"vipValue\":\"false\"}}",
+      "templateDescription": "Default OMP template settings for vSmart",
+      "templateId": "2767ed11-d403-42d4-9dcc-f5471e2a2e3b",
+      "templateMinVersion": "15.0.0",
+      "templateName": "Factory_Default_vSmart_OMP_Template",
+      "templateType": "omp-vsmart"
+    }
+  ],
+  "header": {
+    "columns": [
+      {
+        "dataType": "string",
+        "hideable": false,
+        "property": "templateName",
+        "title": "Name"
+      },
+      {
+        "dataType": "string",
+        "hideable": false,
+        "minWidth": 180,
+        "property": "templateDescription",
+        "title": "Description"
+      },
+      {
+        "dataType": "string",
+        "display": "keyvalue",
+        "hideable": false,
+        "keyvalue": [
+          {
+            "key": "aaa",
+            "value": "AAA"
+          },
+          {
+            "key": "archive",
+            "value": "Archive"
+          },
+          {
+            "key": "banner",
+            "value": "Banner"
+          },
+          {
+            "key": "bfd-vedge",
+            "value": "BFD"
+          },
+          {
+            "key": "bgp",
+            "value": "BGP"
+          },
+          {
+            "key": "bridge",
+            "value": "Bridge"
+          },
+          {
+            "key": "dhcp-server",
+            "value": "DHCP Server"
+          },
+          {
+            "key": "igmp",
+            "value": "IGMP"
+          },
+          {
+            "key": "logging",
+            "value": "Logging"
+          },
+          {
+            "key": "multicast",
+            "value": "Multicast"
+          },
+          {
+            "key": "ntp",
+            "value": "NTP"
+          },
+          {
+            "key": "omp-vedge",
+            "value": "WAN Edge OMP"
+          },
+          {
+            "key": "omp-vsmart",
+            "value": "vSmart OMP"
+          },
+          {
+            "key": "ospf",
+            "value": "OSPF"
+          },
+          {
+            "key": "pim",
+            "value": "PIM"
+          },
+          {
+            "key": "security-vedge",
+            "value": "WAN Edge Security"
+          },
+          {
+            "key": "security-vsmart",
+            "value": "vSmart Security"
+          },
+          {
+            "key": "snmp",
+            "value": "SNMP"
+          },
+          {
+            "key": "switchport",
+            "value": "Switchport"
+          },
+          {
+            "key": "system-vedge",
+            "value": "WAN Edge System"
+          },
+          {
+            "key": "system-vsmart",
+            "value": "vSmart System"
+          },
+          {
+            "key": "cellular-profile",
+            "value": "Cellular Profile"
+          },
+          {
+            "key": "cellular-cedge-profile",
+            "value": "Cellular Profile"
+          },
+          {
+            "key": "cellular-cedge-controller",
+            "value": "Cellular Controller"
+          },
+          {
+            "key": "t1-e1-controller",
+            "value": "T1/E1 Controller"
+          },
+          {
+            "key": "cellular-cedge-gps-controller",
+            "value": "GPS Controller"
+          },
+          {
+            "key": "vpn-vedge",
+            "value": "WAN Edge VPN"
+          },
+          {
+            "key": "vpn-vedge-interface",
+            "value": "WAN Edge Interface"
+          },
+          {
+            "key": "vpn-vsmart",
+            "value": "vSmart VPN"
+          },
+          {
+            "key": "vpn-vsmart-interface",
+            "value": "vSmart Interface"
+          },
+          {
+            "key": "vpn-vmanage-interface",
+            "value": "vManage Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-bridge",
+            "value": "WAN Edge Bridge Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-cellular",
+            "value": "WAN Edge Cellular Interface"
+          },
+          {
+            "key": "vpn-cedge-interface-cellular",
+            "value": "WAN Edge cEdge Cellular Interface"
+          },
+          {
+            "key": "vpn-interface-svi",
+            "value": "VPN Interface SVI"
+          },
+          {
+            "key": "vpn-interface-t1-e1",
+            "value": "WAN Edge T1/E1 Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-gre",
+            "value": "WAN Edge GRE Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-vap",
+            "value": "WAN Edge VAP Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-ppp",
+            "value": "WAN Edge PPP Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-natpool",
+            "value": "WAN Edge NATPool Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-ipsec",
+            "value": "WAN Edge IPSEC Interface"
+          },
+          {
+            "key": "vpn-vedge-interface-ppp",
+            "value": "WAN Edge PPP Interface"
+          },
+          {
+            "key": "vpn-vedge-pppoe-enabled-interface",
+            "value": "WAN Edge PPPOE Interface"
+          },
+          {
+            "key": "wlan",
+            "value": "WLAN"
+          },
+          {
+            "key": "vpn-cedge-interface-multilink-controller",
+            "value": "VPN Interface MultiLink"
+          },
+          {
+            "key": "vpn-interface-pppoa",
+            "value": "VPN Interface DSL PPPoA"
+          },
+          {
+            "key": "vpn-interface-pppoe",
+            "value": "VPN Interface DSL PPPoE"
+          }
+        ],
+        "keyvalueProperty": "templateType",
+        "property": "templateType",
+        "title": "Type"
+      },
+      {
+        "dataType": "array",
+        "display": "keyvalue",
+        "hideable": false,
+        "keyvalueProperty": "deviceType",
+        "minWidth": 150,
+        "property": "deviceType",
+        "title": "Device Model"
+      },
+      {
+        "dataType": "number",
+        "display": "deviceTemplateLinkCell",
+        "property": "attachedMastersCount",
+        "title": "Device Templates"
+      },
+      {
+        "dataType": "number",
+        "display": "deviceLinkCell",
+        "property": "devicesAttached",
+        "title": "Devices Attached"
+      },
+      {
+        "dataType": "string",
+        "property": "lastUpdatedBy",
+        "title": "Updated By"
+      },
+      {
+        "dataType": "date",
+        "displayFormat": "DD MMM YYYY h:mm:ss A z",
+        "inputFormat": "unix-time",
+        "property": "lastUpdatedOn",
+        "title": "Last Updated"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "string",
+        "property": "templateName"
+      },
+      {
+        "dataType": "string",
+        "property": "templateDescription"
+      },
+      {
+        "dataType": "string",
+        "display": "keyvalue",
+        "property": "templateType"
+      },
+      {
+        "dataType": "array",
+        "display": "keyvalue",
+        "property": "deviceType"
+      },
+      {
+        "dataType": "number",
+        "display": "deviceTemplateLinkCell",
+        "property": "attachedMastersCount"
+      },
+      {
+        "dataType": "number",
+        "display": "deviceLinkCell",
+        "property": "devicesAttached"
+      },
+      {
+        "dataType": "string",
+        "property": "lastUpdatedBy"
+      },
+      {
+        "dataType": "date",
+        "property": "lastUpdatedOn"
+      }
+    ],
+    "generatedOn": 1589108406573,
+    "viewKeys": {
+      "preferenceKey": "grid-TemplateGeneral",
+      "uniqueKey": []
+    }
+  }
+}

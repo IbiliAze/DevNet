@@ -1,0 +1,48 @@
+module interfaces {
+    yang-version "1.1";
+    prefix "interfaces";
+    typedef vlan-type {
+        type uint16 {
+            range 1..4094;
+        }
+        description "Valid VLAN range";
+    }
+
+    grouping interfaces-basic-grouping {
+        description "Common charasteristics";
+        leaf name {
+            type string;
+            description "Name of the interface";
+        }
+        leaf enabled {
+            type boolean;
+            default "false";
+            description "Admin Up or Down";
+        }
+    }
+
+    container interface_container {
+        list switchport-list {
+            description "list of switchports";
+            key "name";
+            uses "interface-basic-grouping";
+            leaf vlan {
+                type vlan-type;
+                default 1;
+            }
+            leaf interface_description {
+                type string;
+                default "interface descr";
+            }
+        }
+
+        list virtual-list {
+            key "name";
+            uses "interface-basic-grouping";
+            leaf ip_address {
+                type string;
+                default "1.1.1.1";
+            }
+        }
+    }
+}

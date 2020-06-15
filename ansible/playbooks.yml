@@ -1,0 +1,18 @@
+---
+- name: collect facts
+  hosts: r1
+  tasks:
+    - name: system facts
+      ios_command:
+        commands:
+          - conf t
+          - interface loop23
+          - no shut
+      register: output
+
+    - name: make sure a directory exists
+      file:
+        path: 'outputs'
+        state: 'directory'
+      run_once: true
+      delegate_to: 'localhost'

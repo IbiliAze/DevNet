@@ -1,0 +1,53 @@
+{
+    "configType": "template",
+    "connectionPreference": true,
+    "connectionPreferenceRequired": true,
+    "deviceType": "vedge-ISR-4221",
+    "factoryDefault": false,
+    "featureTemplateUidRange": [],
+    "generalTemplates": [
+        {
+            "templateId": "476b52d0-3196-4625-82be-1deb124a5199",
+            "templateType": "aaa"
+        },
+        {
+            "templateId": "2d284024-a806-4671-b557-859a86479cb1",
+            "templateType": "bfd-vedge"
+        },
+        {
+            "templateId": "fa6f5eb8-1dfd-4019-8c39-7819a871cc64",
+            "templateType": "omp-vedge"
+        },
+        {
+            "templateId": "313585d2-4131-47ca-8968-09c3ceb7d52d",
+            "templateType": "security-vedge"
+        },
+        {
+            "subTemplates": [
+                {
+                    "templateId": "6100ab12-610f-4344-b41e-0ca9ff0ee6f6",
+                    "templateType": "logging"
+                }
+            ],
+            "templateId": "777f1262-1ae7-4dea-82d1-b24b2132d548",
+            "templateType": "system-vedge"
+        },
+        {
+            "subTemplates": [
+                {
+                    "templateId": "17b68863-3d13-4348-93b5-b103ad3fd69e",
+                    "templateType": "vpn-vedge-interface"
+                }
+            ],
+            "templateId": "75dc410d-9910-429a-b2d7-ff716b48e8d3",
+            "templateType": "vpn-vedge"
+        },
+        {
+            "templateId": "b497375e-4d8d-4cc0-ae0d-c9296944e075",
+            "templateType": "vpn-vedge"
+        }
+    ],
+    "policyId": "",
+    "templateDescription": "MY TEMP DESCRRR",
+    "templateName": "MYTEMP"
+}

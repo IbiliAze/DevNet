@@ -1,0 +1,9 @@
+---
+hosts:
+  - host: 'www.google.com'
+    ip: '8.8.8.8'
+  - host: 'www.youtube.com'
+    ip: '192.168.0.1'
+  - host: 'www.lol.com'
+    ip: '192.168.0.60'
+...

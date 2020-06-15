@@ -1,0 +1,4 @@
+ip domain-lookup
+{% for host in data['hosts'] %}
+ip host {{ host['host'] }} {{ host['ip'] }}
+{% endfor %}
