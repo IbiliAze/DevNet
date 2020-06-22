@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 ''' Read Data.csv '''
-dataset = pd.read_csv('AI/Data.csv')
+dataset = pd.read_csv('DevNet/AI/Data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 # print(x)
