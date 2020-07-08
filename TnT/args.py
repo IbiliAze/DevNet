@@ -15,3 +15,4 @@ if __name__ == '__main__':
         print("nah see ya lol")
     else:
         print(circum(args.radius))
+        print(args.radius)
